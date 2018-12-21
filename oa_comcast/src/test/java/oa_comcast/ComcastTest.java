@@ -61,7 +61,7 @@ public class ComcastTest {
 	public void notMatchStandard() {
 		final String[] arr = {};
 		final String NOTSTANDARD = "StandardFile";
-		Assert.assertNotEquals(x1.checkMode(arr), NOTSTANDARD);
+		Assert.assertNotSame(x1.checkMode(arr), NOTSTANDARD);
 	}
 	
 	@Test
